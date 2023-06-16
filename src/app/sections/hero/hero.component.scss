@@ -1,0 +1,38 @@
+p{
+    margin: 0;
+}
+
+.hero-parent{
+    background: #000;
+    color: rgb(122, 192, 218);
+    span{
+        color: rgb(208, 30, 30);
+    }
+}
+
+
+.pulse-effect {
+    animation: pulse 1s infinite;
+    background: rgb(17, 255, 0);
+    color: rgb(17, 255, 0) !important;
+}
+
+.console-text {
+    font-family: 'Inconsolata', monospace;
+    // font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+
+@keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

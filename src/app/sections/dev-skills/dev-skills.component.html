@@ -1,0 +1,39 @@
+<div class="dev-skills-parent my-3">
+    <div class="container">
+        <div class="row">
+
+            
+            
+            <div class="skills-area d-flex col-4">
+                <h1>Dev Skills</h1>
+                <app-skills-card
+                class="col-3"
+                 *ngFor="let item of dev_skills"
+                [name]="item.name"
+                [img_src]="item.img_src"
+                ></app-skills-card>
+            </div>
+            <div class="skills-area d-flex col-4">
+                <h1>Work Flow Skills</h1>
+                <app-skills-card 
+                class="col-3"
+                *ngFor="let item of work_flow_skills"
+                [name]="item.name"
+                [img_src]="item.img_src"
+                ></app-skills-card>
+            </div>
+            <div class="skills-area d-flex col-4">
+                <h1>UI/UX Skills</h1>
+                <app-skills-card 
+                class="col-3"
+                *ngFor="let item of ui_ux_skills"
+                [name]="item.name"
+                [img_src]="item.img_src"
+                ></app-skills-card>
+            </div>
+            
+
+            
+        </div>
+    </div>
+</div>

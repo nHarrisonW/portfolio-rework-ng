@@ -1,0 +1,16 @@
+footer{
+    bottom:0;
+    width: 100%;
+    background: #000;
+    color: white;
+    a{
+        margin-bottom: 12px;
+        color: white;
+    }
+}
+
+
+.info-parent{
+    display: flex;
+    flex-direction: column;
+}
