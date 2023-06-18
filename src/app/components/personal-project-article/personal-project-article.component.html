@@ -1,1 +1,20 @@
-<p>personal-project-article works!</p>
+
+
+<div class="article-parent">
+    <div >
+        
+        <a href="{{reference}}">{{title}}</a>
+        
+        <p>{{description_one |capitalizeSentences}}</p>
+        <!-- <p>
+            <ng-container *ngFor="let char of description_one; let i=index">
+              <span [ngStyle]="{'color': get_color(i)}">{{char}}</span>
+            </ng-container>
+          </p> -->
+          
+        <p>{{description_two}}</p>
+        
+
+    </div>
+    <img src="{{img_src}}" alt="">
+</div>

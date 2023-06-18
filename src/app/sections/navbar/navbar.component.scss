@@ -3,9 +3,13 @@
 .nav-parent{
     background: #000;
     width: 100%;
+    justify-content: space-between;
     a{
-        margin-right: 10vw;
+        // margin-right: 10vw;
         color: white;
         text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
     }
 }

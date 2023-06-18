@@ -20,5 +20,19 @@ export class NavbarComponent {
       area:'About Me',
       reference:'#about_me'
     },
+    {
+      area:'Business Redesign',
+      reference:'#business_redesign'
+    },
+    {
+      area:'RPSLS',
+      reference:'#rpsls'
+    },
+    {
+      area:'Advice Generator',
+      reference:'#advice_generator'
+    },
   ]
 }
+
+

@@ -10,6 +10,7 @@ import { FooterComponent } from './sections/footer/footer.component';
 import { SkillsCardComponent } from './components/skills-card/skills-card.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { PersonalProjectArticleComponent } from './components/personal-project-article/personal-project-article.component';
+import { CapitalizeSentencesPipe } from './capitalize-sentences.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PersonalProjectArticleComponent } from './components/personal-project-a
     FooterComponent,
     SkillsCardComponent,
     ProjectsComponent,
-    PersonalProjectArticleComponent
+    PersonalProjectArticleComponent,
+    CapitalizeSentencesPipe
   ],
   imports: [
     BrowserModule

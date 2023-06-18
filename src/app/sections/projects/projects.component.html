@@ -1,1 +1,11 @@
-<p>projects works!</p>
+
+
+<app-personal-project-article
+*ngFor="let item of personal_projects; let i=index"
+[title]="item.title"
+[img_src]="item.img_src"
+[description_one]="item.description_one"
+[description_two]="item.description_two"
+[ngClass]="{ 'right-text': i%2 !==0 }"
+class=""
+></app-personal-project-article>
