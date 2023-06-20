@@ -3,19 +3,19 @@
     <p>aspiring_junior_dev<span> = </span> [ </p>
     <div class="px-3">
 
-        <p>{{'{'}}</p>
+        <p style="color: #FFE74C;">{{'{'}}</p>
         <div class="px-4">
             <p>name: <span>'{{item.name}}'</span>,</p>
             <p>email: <span>'{{item.email}}'</span>,</p>
             <p>phone_number: <span>'{{item.phone_number}}'</span>,</p>
             <p>location: <span>'{{item.location}}'</span>,</p>
-            <p>currently_working_on: [<span *ngFor="let working of item.currently_working_on">'{{working}}', </span>],</p>
+            <p>currently_working_on: <span style="color:deeppink;">[</span><span class="d-block px-3" *ngFor="let working of item.currently_working_on">'{{working}}', </span><span style="color:deeppink;">]</span>,</p>
         </div>
-        <p>{{'},'}}</p>
+    <p style="color: #FFE74C;">{{'}'}}<span style="color: rgb(122, 192, 218);">,</span></p>
     </div>
     
     <p>];</p>
-    <p><span class="pulse-effect">$</span>  </p>
+    <p><span class="pulse-effect">$</span></p>
 
     
 </div>
