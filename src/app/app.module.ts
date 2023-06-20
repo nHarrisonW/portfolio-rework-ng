@@ -11,6 +11,7 @@ import { SkillsCardComponent } from './components/skills-card/skills-card.compon
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { PersonalProjectArticleComponent } from './components/personal-project-article/personal-project-article.component';
 import { CapitalizeSentencesPipe } from './capitalize-sentences.pipe';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CapitalizeSentencesPipe } from './capitalize-sentences.pipe';
     CapitalizeSentencesPipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
